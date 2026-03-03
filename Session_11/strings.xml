@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Session10App</string>
+    <string name="affirmation1">You are capable of amazing things.</string>
+    <string name="affirmation2">Stay positive and strong.</string>
+    <string name="affirmation3">Believe in yourself.</string>
+    <string name="affirmation4">Success is built daily.</string>
+
+    <string name="architecture">Architecture</string>
+    <string name="business">Business</string>
+    <string name="design">Design</string>
+    <string name="music">Music</string>
+</resources>
