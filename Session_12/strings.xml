@@ -1,0 +1,25 @@
+
+<resources>
+
+    <!-- App -->
+    <string name="app_name">Woof</string>
+    <string name="about">About</string>
+    <string name="expand_button_content_description">
+        Expand or collapse dog details
+    </string>
+    <string name="years_old">%1$d years old</string>
+
+    <!-- Dogs -->
+    <string name="dog_name_1">Koda</string>
+    <string name="dog_hobby_1">Loves playing fetch in the park.</string>
+
+    <string name="dog_name_2">Lola</string>
+    <string name="dog_hobby_2">Enjoys belly rubs and long naps.</string>
+
+    <string name="dog_name_3">Frankie</string>
+    <string name="dog_hobby_3">Chasing butterflies in the garden.</string>
+
+    <string name="dog_name_4">Nox</string>
+    <string name="dog_hobby_4">Guarding the house like a hero.</string>
+
+</resources>
