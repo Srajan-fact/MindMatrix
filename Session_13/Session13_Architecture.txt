@@ -1,0 +1,14 @@
+com.example.superheroes30days
+│
+├── MainActivity.kt
+├── HeroesScreen.kt
+│
+├── model
+│     ├── Hero.kt
+│     └── HeroesRepository.kt
+│
+└── ui.theme
+      ├── Color.kt
+      ├── Shape.kt
+      ├── Type.kt
+      └── Theme.kt

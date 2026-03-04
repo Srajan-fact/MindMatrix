@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Superheroes</string>
+
+    <string name="hero1">Nick the Night</string>
+    <string name="description1">The Jetpack Hero</string>
+
+    <string name="hero2">Reality Protector</string>
+    <string name="description2">Understands absolute truth</string>
+
+    <string name="hero3">Andre the Giant</string>
+    <string name="description3">Blends into shadows</string>
+
+    <string name="hero4">Benjamin the Brave</string>
+    <string name="description4">Harnesses fearless power</string>
+
+    <string name="hero5">Magnificent Maru</string>
+    <string name="description5">Glides into danger</string>
+
+    <string name="hero6">Dynamic Yasmine</string>
+    <string name="description6">Shape shifting energy</string>
+
+</resources>
