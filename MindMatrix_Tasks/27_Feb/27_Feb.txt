@@ -1,0 +1,7 @@
+27_Feb
+
+Experience of installing AntiGravity:
+
+Installing AntiGravity was actually pretty straightforward for me because I didn't start from scratch. I cloned my existing VS Code setup which was already well-configured with Flutter and Dart — so all the environment variables, extensions, and SDK paths were already in place. I opened my existing Flutter project, which was a single-screen profile page app, added AntiGravity as a dependency in pubspec.yaml, and ran flutter pub get to pull in the package.
+The main challenge wasn't the installation itself — it was figuring out how to apply AntiGravity's enhancements to the existing widget tree without breaking the layout. Flutter's widget system is sensitive to how you wrap things, so I took an incremental approach — one widget at a time — using hot reload to immediately see what each change did.
+The result was a visually upgraded profile page: dark themed background, circular avatar with a glowing red border, bold name and subtitle, and clean rounded contact cards. It went from a basic Flutter layout to something that looks genuinely polished. The key learning was that a well-maintained dev environment makes everything faster — and that AntiGravity works best when you apply it gradually rather than all at once.

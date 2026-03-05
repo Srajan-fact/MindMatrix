@@ -1,0 +1,6 @@
+11 feb 
+
+Write your experience creating your account and working methodology on such project scheduling tool:
+
+Setting up an account on these tools was straightforward — most of them have a quick sign-up and walk you through a sample project right away. I started with ClickUp and Asana since they have free plans. Once inside, I explored how tasks are created, linked with dependencies, and laid out on a timeline. What struck me most was how much clearer a project feels once you put it on a Gantt view — things that seemed manageable in your head suddenly look very different when you see the actual sequence. Working through the scheduling methodology — breaking work into tasks, setting durations, and spotting bottlenecks — made me realize how much goes into planning before a single line of work even begins.
+

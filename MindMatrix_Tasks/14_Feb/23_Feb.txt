@@ -1,0 +1,24 @@
+23_Feb
+
+Share your Experience of Setting up Android Studio:
+
+I downloaded Android Studio from the official site (developer.android.com) and installed the latest stable version — Android Studio Hedgehog (2023.1.1). The installation wizard was straightforward. During setup, it automatically detected that I needed the Android SDK, and I let it handle the default SDK installation which included Android SDK Platform 34, SDK Build-Tools, and the Android Emulator.
+Once the IDE launched, it ran through the initial setup wizard where I configured the SDK path and set up a virtual device (AVD) using the Device Manager — I picked a Pixel 6 emulator running Android 14. I also made sure the Intel HAXM (Hardware Accelerated Execution Manager) was installed to speed up the emulator.
+The packages installed during setup included: Android SDK Platform-Tools, Android SDK Tools, Google Play Services, and the Emulator itself. I ran a quick "Hello World" project to verify everything was working — the build was successful and the app launched on the emulator without issues.
+Overall the process took about 30–40 minutes including the SDK downloads. The trickiest part was making sure the SDK paths were correctly set in the environment variables, but the IDE flagged it automatically which made it easy to fix.
+
+Share your Experience creating a Project on Android Studio:
+
+Creating my first app on Android Studio was a genuinely exciting experience — even if it's just a greeting card, there's something satisfying about seeing something you built actually run on a screen.
+Getting Started
+I opened Android Studio and selected "New Project." For the project template, I chose "Empty Activity" since I wanted a clean starting point without any extra boilerplate. I named the project "GreetingCard", set the package name, chose Kotlin as the language, and set the minimum SDK to API 24 (Android 7.0) to keep it widely compatible. The project took a minute to build and sync with Gradle before it was ready to work with.
+Building the App
+The app itself was simple — a white background with black text saying "Hi Srajan." I went into the activity_main.xml layout file and worked in the Design view. I removed the default "Hello World!" TextView and updated the text to "Hi Srajan." I set the text color to black (#000000), bumped the font size up to 36sp so it was clearly visible, and centered it both horizontally and vertically on the screen. The background was already white by default, so no changes were needed there.
+I also made a small edit in MainActivity.kt to make sure the activity was loading correctly, though since I wasn't adding any logic — just a static screen — the Kotlin file didn't need much beyond the default setContentView call.
+Challenges Faced
+The first challenge was Gradle sync taking longer than expected when the project first loaded. It was downloading dependencies in the background, and for a moment I thought something had gone wrong — but it eventually completed. The second challenge was getting the TextView centered properly. Initially it was aligned to the top-left corner of the screen. I had to use the Constraint Layout handles in the Design view to anchor it to the center of the parent both horizontally and vertically — once I did that, it snapped into place perfectly.
+Running the App
+I ran the app on the Pixel 6 emulator I had set up earlier. The emulator booted up, the app launched, and there it was — a clean white screen with "Hi Srajan" in bold black text right in the middle. It was a small thing, but it felt like a real milestone.
+Key Learnings
+Even a simple app taught me a lot about how Android Studio is structured — the separation between the layout XML files and the Kotlin logic files, how Constraint Layout works, and how the build and Gradle system fits together. I also got comfortable navigating the IDE — the file explorer, the layout editor, and the emulator controls. It gave me a solid foundation to build on for more complex projects going forward.
+
