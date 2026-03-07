@@ -1,0 +1,9 @@
+5 Feb
+
+The problem is straightforward: most students and fresh graduates enter the job market with resumes that undersell them — not because they lack experience, but because they don't know how to present what they have. ATS systems reject resumes before a human even sees them, and professional resume services cost $100–$500, which is completely out of reach for most students.
+ResumeAI is a mobile app that acts as a personal resume coach. Users upload or paste their resume, and the app uses AI to analyze it and return specific, actionable improvements — instantly and for free.
+Core features include: an ATS compatibility score (0–100), keyword gap analysis against a job description, an AI rewriter that turns weak bullet points into strong impact-driven statements, section-by-section feedback, and one-tap PDF export of the improved resume.
+Target users are engineering students, fresh graduates, career switchers, and anyone who needs help presenting their experience professionally without paying for it.
+How AI Studio supports development: Gemini's API via AI Studio handles the intelligence layer — analyzing resume text, identifying gaps, and generating rewrite suggestions. The AI Studio playground makes it easy to test and refine prompts before wiring them into the app, so the quality of feedback can be improved without touching the Flutter code.
+How Android Studio supports development: Android Studio handles emulator testing across device sizes and Android versions, and its profiler helps optimize the API response experience — especially managing loading states while waiting for AI feedback.
+Flutter ties it all together as the UI and state management layer, with a clear path to extend the app to iOS later. ResumeAI is practical to build, solves a real problem, and is perfectly timed for a market where AI tools are accessible and the job market is more competitive than ever.

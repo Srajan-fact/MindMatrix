@@ -1,0 +1,9 @@
+4 feb
+
+ My Flutter profile page app worked fine but looked completely generic — plain white background, default text, no visual personality. For a profile screen, that's a real problem. It needed to feel like something, not just function like something.
+Solution Approach: Instead of rewriting everything, I used AntiGravity to enhance the existing UI layer without touching the app's logic. I kept the widget structure intact and applied enhancements incrementally — one component at a time — using Flutter's hot reload to verify each change instantly.
+How I Used AntiGravity: I added it as a dependency in pubspec.yaml, ran flutter pub get, and imported it into the profile screen. I then applied it across the key UI elements: a dark scaffold background, a circular avatar with a glowing red border, bold styled name text, a spaced red subtitle, and rounded contact cards with icon containers for email and phone. Each change was visible immediately through hot reload, which made the whole process feel fast and controlled.
+Results: The transformation was significant. The app went from a flat, default-looking screen to a polished dark-themed profile card with real visual depth. It ran without errors on a physical Android device and looked genuinely production-quality.
+Workflow Impact: AntiGravity removed the need to write boilerplate styling code, so I could focus entirely on design decisions rather than implementation details. It integrates naturally into Flutter's hot reload cycle, making iteration smooth and risk-free since I wasn't touching core logic.
+Possible Extensions: Animated entrance effects on load, extending to a multi-screen portfolio app, adding a light/dark mode toggle, and pulling profile data dynamically from a backend rather than hardcoding it.
+

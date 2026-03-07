@@ -1,0 +1,8 @@
+6 Feb
+
+Prototype: ResumeAI — Smart Resume Upscaler
+The prototype is a fully functional web app built with React, TypeScript, Firebase, and the Gemini 1.5 Pro API accessed through AI Studio. Rather than building a mockup, I built a working product to validate that the entire AI workflow — resume in, structured feedback out — actually functions reliably before moving to the Android Studio implementation.
+Key features in the prototype: ATS score (0–100), keyword gap analysis against a job description, AI-powered bullet point rewriting, section-by-section feedback, Google Sign-In via Firebase Auth, Firestore for saving history, and one-tap PDF export of the improved resume.
+Role of AI Studio: I used AI Studio's playground to design and test the prompts before wiring them into code. The prompts were engineered to return consistent JSON — ATS score, missing keywords, rewritten bullets, and section feedback — which made parsing the responses straightforward. The Gemini 1.5 Pro model was chosen for its quality on structured text analysis tasks.
+How it validates the idea: The prototype confirmed that the Gemini API returns reliable, parseable responses in under 3 seconds, that Firebase Auth and Firestore work seamlessly together, and that the core user flow is intuitive without any onboarding. Every major technical assumption was tested and confirmed.
+Android Studio implementation plan: The next phase migrates the same logic into Flutter inside Android Studio — React components become Flutter widgets, the TypeScript Gemini service becomes a Dart HTTP service, and Firebase packages are swapped for their Flutter equivalents. The prototype essentially acts as the technical blueprint for the mobile app.
