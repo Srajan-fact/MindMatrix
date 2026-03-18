@@ -1,0 +1,62 @@
+17 march
+
+Q1A - Share screen for 5 minutes
+Q2A - Try link yourself, find correct one, inform team
+Q3C - Create Pro-Con list and share on WhatsApp
+Q4A - Write answers and pin them to the group
+Q5A - Hop on quick call and help debug
+Q6B - Explain why the prompt works
+Q7B - Remind about documentation marking (20%)
+Q8A - Show free tier settings and prove no charges
+Q9A - Call them to check on genuine issues
+Q10C - Check background & internet stability
+Q11C - Check Release Notes for version changes
+Q12B - Teach about Dependencies, not just fixes
+Q13A - Host Mock Viva for collaborative prep
+Q14C - Create flexible schedule for real circumstances
+Q15B - Verify copyright rules before sharing
+Q16C - Record video for clear visual guidance
+Q17B - Create template with 10 headings
+Q18C - Explain why unique branding matters
+Q19B - Suggest Google Drive instead of WhatsApp
+Q20A - Show official government source as proof
+Q21C - Split work by phases (Design/Logic) for parallel progress
+Q22B - Focus on VTU requirements (3 features, not 10)
+Q23C - Check if update is mandatory before updating
+Q24A - Use AI noise cancellation or subtitles for audio
+Q25C - Flash for testing, Pro for final demo (cost-optimized)
+Q26C - Create quota management tip-sheet for group
+Q27A - Explain Public/Private repos and License files
+Q28A - Ask for error logs and specific context
+Q29A - Use Keyboard Options or Try-Catch blocks
+Q30A - Use Image Asset Studio for custom icons
+Q31D - Use downtime productively (paper sketching)
+Q32B - Focus on project requirements (Gemini mandatory)
+Q33B - Provide script to reduce anxiety
+Q34C - Enable BIOS virtualization for performance
+Q35B - Check official ethics policy for clarity
+Q36C - Create weekly backup rule for group
+Q37C - Make bonus task optional and visible
+Q38A - Share APK via Drive/GitHub for free
+Q39A - Analyze code to understand feedback
+Q40C - Balance celebration with gratitude
+Q41B - Teach new library syntax for future updates
+Q42C - Use peer collaboration for workarounds
+Q43B - Use Android Profiler for performance diagnosis
+Q44A - Prioritize stability over perfection near deadline
+Q45A - Lead by example with enthusiasm
+Q46A - Adjust system prompt for clarity
+Q47C - Check official brand kit for assets
+Q48C - Escalate attitude issues to leadership
+Q49B - Rebuild commit history with small changes
+Q50A - Create comprehensive handover checklist
+Q51A - Use multi-screen setups for productivity
+Q52A - Teach proper data persistence solutions
+Q53C - Check permissions before sharing work
+Q54C - Teach asynchronous programming for responsiveness
+Q55D - Frame accessibility as professional responsibility
+Q56C - Prepare technical justifications for interviews
+Q57C - Create workflow rules to prevent conflicts
+Q58A - Use compression and APK analysis tools
+Q59B - Verify requirements with official sources
+Q60C - Build professional networks via LinkedIn
