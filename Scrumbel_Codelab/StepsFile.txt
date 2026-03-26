@@ -1,0 +1,60 @@
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
+
+ui → New → Kotlin Class
+
+GameUiState.kt
+
+data class GameUiState(
+    val currentScrambledWord: String = "",
+    val currentWordCount: Int = 1,
+    val score: Int = 0,
+    val isGuessedWordWrong: Boolean = false,
+    val isGameOver: Boolean = false
+)
+
+ui → New → Kotlin Class
+
+GameViewModel.kt
+
+ui → GameScreen.kt
+
+ui/
+├── GameScreen.kt        → UI
+├── GameViewModel.kt     → Logic
+├── GameUiState.kt       → State
+
+
+changes 
+
+Connect ViewModel to UI
+
+Inside GameScreen.kt:
+
+val gameUiState by gameViewModel.uiState.collectAsState()
+
+
+
+Connect UI elements
+
+Inside GameLayout():
+
+value = userGuess
+onValueChange = onUserGuessChanged
+isError = isGuessWrong
+
+
+
+Connect buttons
+onClick = { gameViewModel.checkUserGuess() }
+onClick = { gameViewModel.skipWord() }
+
+
+Fix Word Count (important)
+
+Pass:
+
+currentWordCount = gameUiState.currentWordCount
+
+Display:
+
+stringResource(R.string.word_count, currentWordCount)
