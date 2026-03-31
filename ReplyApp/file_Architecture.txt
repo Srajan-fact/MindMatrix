@@ -1,0 +1,36 @@
+app/
+├── manifests/
+│   └── AndroidManifest.xml
+│
+├── kotlin+java/com.example.reply/
+│   ├── data/
+│   │   └── (email data source / models)
+│   │
+│   ├── ui/
+│   │   ├── theme/
+│   │   │   ├── Color.kt
+│   │   │   ├── Theme.kt
+│   │   │   └── Type.kt
+│   │   │
+│   │   ├── utils/
+│   │   │   └── WindowStateUtils.kt → Defines screen-based navigation & layout types
+│   │   │
+│   │   ├── ReplyApp.kt → Decides layout + connects ViewModel to UI
+│   │   ├── ReplyHomeScreen.kt → Controls navigation and main screen switching
+│   │   ├── ReplyHomeContent.kt → Displays email list and split layout
+│   │   ├── ReplyDetailsScreen.kt → Shows selected email details
+│   │   ├── ReplyUiState.kt → Stores current UI data/state
+│   │   └── ReplyViewModel.kt → Handles logic and updates state
+│   │
+│   └── MainActivity.kt → Starts app and provides screen size to UI
+│
+├── androidTest/
+│   └── (UI tests)
+│
+├── res/
+│   ├── drawable/
+│   ├── mipmap/
+│   ├── values/
+│   └── xml/
+│
+└── Gradle Scripts

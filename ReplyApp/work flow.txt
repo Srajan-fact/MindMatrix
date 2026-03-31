@@ -1,0 +1,46 @@
+       work flow 
+
+                ┌──────────────────────────────┐
+                │        MainActivity                     │
+                │  (Entry Point / Host UI)                │
+                └─────────────┬────────────────┘
+           	                   │
+       	                           ▼
+                ┌──────────────────────────────┐
+                │         ReplyApp.kt                     │
+                │   (Navigation + Scaffold)               │
+                └─────────────┬────────────────┘
+                                   │
+                                   ▼
+        ┌────────────────────────────────┐
+        │                 UI Layer                   │
+        │--------------------------------------------│
+        │ ReplyHomeScreen.kt                         │
+        │ ReplyDetailsScreen.kt                      │
+        │ ReplyHomeContent.kt                        │
+        │                                            │
+        │ ➤ Displays data                            │
+        │ ➤ Sends user actions                       │
+        └─────────────┬───────────────────┘
+                           │ (State + Events)
+                           ▼
+        ┌────────────────────────────────┐
+        │            ViewModel Layer                 │
+        │--------------------------------------------│
+        │ ReplyViewModel.kt                          │
+        │ ReplyUiState.kt                            │
+        │                                            │
+        │ ➤ Holds UI state                           │
+        │ ➤ Business logic                           │
+        │ ➤ Processes user input                     │
+        └─────────────┬───────────────────┘
+                           │ (Data Request)
+                           ▼
+        ┌───────────────────────────────┐
+        │              Data Layer                    │
+        │--------------------------------------------│
+        │ data/ (local data / repository)            │
+        │                                            │
+        │ ➤ Provides email data                      │
+        │ ➤ Acts as source of truth                  │
+        └─────────────────────────────────┘
