@@ -1,0 +1,37 @@
+imports in racetracker.kt 
+
+import androidx.compose.runtime.LaunchedEffect
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.launch
+
+
+imports in raceparticipants.kt 
+
+import kotlinx.coroutines.delay
+
+racetracker.kt 
+
+Racetrackerapp() line 69 
+
+var raceInProgress by remember { mutableStateOf(false) }
+
+    if (raceInProgress) {
+        LaunchedEffect(playerOne, playerTwo) {
+            coroutineScope {
+                launch { playerOne.run() }
+                launch { playerTwo.run() }
+            }
+            raceInProgress = false
+        }
+    }
+    RaceTrackerScreen(
+
+ raceparticipants.kt 
+
+above fun reset()
+suspend fun run() {
+        while (currentProgress < maxProgress) {
+            delay(progressDelayMillis)
+            currentProgress += progressIncrement
+        }
+    }
